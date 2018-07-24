@@ -1,0 +1,9 @@
+body {background-image: url("images\Continents_from_globe.png");
+	background-repeat: no-repeat;}
+
+h1 {color: navy;
+    margin-left: 10px;
+	}
+a:hover{text-decoration:none;	}	
+a:active{background-color:gray;	}	
+a:visited{color:blue	}
