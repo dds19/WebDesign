@@ -1,9 +1,69 @@
-body {background-image: url("images\Continents_from_globe.png");
-	background-repeat: no-repeat;}
 
-h1 {color: navy;
-    margin-left: 10px;
-	}
-a:hover{text-decoration:none;	}	
-a:active{background-color:gray;	}	
-a:visited{color:blue	}
+html {
+ background: white;
+ font-size: 100%;
+ -webkit-text-size-adjust: 100%;
+ -ms-text-size-adjust: 100%;
+ min-height: 100%;
+}
+html {
+ font-family: Verdana, Geneva, sans-serif;
+}
+body {
+ margin: 5;
+ padding: 0;
+ background: transparent;
+ font-size: 1rem;
+ line-height: 1.5;
+ color: #595959;
+ min-width: 1080px;
+}
+ul {
+ list-style:none;
+ background:green;
+ background: #0c5cac;     
+ border-width: 1px 0 1px 0;
+ border-style: solid;
+ border-color: #09427c;
+ font-size: 14px;
+ font-size: 0.875rem;
+ line-height: 1.71429;
+ color:white;
+}
+.dropmenu{
+	margin:2;
+	padding:2;
+	position:relative;
+	width:50;
+}
+ul li {
+ position:relative;
+ width:50;
+}
+ul, li {
+ margin:0;
+ padding:0;
+}
+li {
+ display:inline-block;
+ padding:10px 10px;
+}
+ul li ul {
+ display:none;
+ position:absolute;
+ top:45px;
+ left:0;
+}
+ul li ul li {
+ display:block;
+}
+
+ul li:hover {
+ background-color: #2d8ff0;
+ color: white;
+ text-shadow: none;
+ cursor: pointer;
+}
+ul li:hover ul {
+ display:block;
+}

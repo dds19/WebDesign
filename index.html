@@ -6,20 +6,103 @@
 	<link rel="stylesheet" type="text/css" href="finalcss.css">
 </head>
 <body>
-<div> 
-	<h1>Home </h1>
-</div>
-<div>
-	<a href="index.html">Home </a> &nbsp;
-	<a href="contact.html">Contact Us </a> &nbsp;
-	<a href="stuff.html">Content </a> &nbsp;
-	<a href="california.html">California </a> &nbsp;
-	<a href="https://www.choctawhoghuntingranch.com/">Sample Website </a> 
-</div>
-<hr>
-<div>
-	<img class="noneyet" src="images\Globe-Grey-Chalk-460x295.png" alt="Image of Globe" title="Globe" />
-</div>
-<hr>
+<script src="script.js" > </script>
+<table border-collapse="collapse" >
+	<tr  > 
+		<td colspan="5" >
+			<table border-collapse="collapse" >
+				<tr>
+					<td width="1200">
+						<h1> Home </h1> 
+					</td> 
+				</tr>
+				<tr>
+				<td>
+					<ul>
+						<li>Home</li>
+						<li>Contact Us
+							<ul>
+								<li>Person 1</li>
+								<li>Person 2</li>
+								<li>Person 3</li>
+							</ul>
+						</li>
+						<li>Content
+							<ul>
+								<li>Some Content</li>
+							</ul>
+						</li>
+						<li>Content
+							<ul>
+								<li>Some Content</li>
+							</ul>
+						</li>
+						<li>Images
+							<ul>
+								<li>Image 1</li>
+								<li>Image 2</li>
+								<li>Image 3</li>
+							</ul>
+						</li>
+					</ul>					
+				</td>
+				</tr>
+			</table>	
+		</td>
+	</tr>
+	<table border="2" cellpadding="5px" border-collapse="collapse" > 
+		<tr>
+			<td rowspan="4">
+				<table >
+					<tr ><td width="100"><h3>Links </h3> </td> </tr>
+					<tr><td><a href="index.html">Home </a> </td> </tr>
+					<tr><td><a href="contact.html">Specifications </a> </td> </tr>
+					<tr><td><a href="stuff.html">Order Now </a> </td> </tr>
+					<tr><td><a href="images.html">Images </a> </td> </tr>
+				</table>	
+			</td>
+		</tr>
+		<tr  class="setuprows">
+			<td >Column 1</td>
+			<td>Column 2</td>
+			<td >
+			<td rowspan="3" width="200">
+				<table border-collapse="collapse" >
+					<tr><td>
+							<img src="images\Continents_from_globe.png" 
+								alt="Image of Globe" 
+								title="Globe" 
+								width="200" height="200"/>
+						</td> 
+					</tr>
+				</table>	
+			</td>
+			</td>
+		</tr>
+		<tr class="setuprows">
+			<td width="275">Column 1</td>
+			<td width="275">Column 2</td>
+			<td width="275">Column 3</td>
+		</tr>
+		<tr class="setuprows">
+			<td>Column 1</td>
+			<td >	</td>
+			<td>Column 3</td>
+		</tr>
+	</table>
+	<tr  > 
+		<td colspan="5" >
+			<table border-collapse="collapse" >
+				<tr>
+					<td width="1200">
+						<center>Contains a table row spanned across table & centered on page</center>
+					</td> 
+				</tr>
+			</table>	
+		</td>
+		<td colspan="5"></td>
+	</tr>
+</table>
+
 </body>
 </html>
