@@ -1,0 +1,117 @@
+ html {
+     background: white;
+     font-size: 100%;
+     min-height: 100%;}
+ 
+ html {
+     font-family: sans-serif;}
+ 
+ body {
+     margin: 0;
+     padding: 0;
+     background: transparent;
+     font-size: 1rem;
+     line-height: 1.5;
+     color: white;
+     min-width: 1080px;}
+ 
+ ul {
+     list-style:none;
+     background-color: #E25228;     
+     border-width: 1px 0 1px 0;
+     border-style: solid;
+     border-color: #09427c;
+     font-size: 14px;
+     font-size: 0.875rem;
+     line-height: 1.71429;
+     color:white;}
+ 
+ ul li {
+     position: relative;
+	 background-color: #E25228}
+ 
+ ul, li {
+     margin:0;
+     padding:0;}
+ 
+ li {
+     display:inline-block;
+     padding:10px 10px;}
+ 
+ ul li ul {
+     display:none;
+     position:absolute;
+     top:45px;
+     left:0;}
+ 
+ ul li ul li {
+     display:block;
+	 z-index: 999;}
+ 
+ ul li:hover {
+     background-color: darkgreen;
+     color: white;
+     text-shadow: none;
+	 cursor: pointer;}
+
+ ul li:hover ul {
+     display:block;}
+
+.background_body {
+	background-color: black;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;}
+
+.page_container {
+	background-color: #4A3C29;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 12.5%;
+	right: 12.5%;}
+	
+.page_template {
+	display: inline-block;
+	position: absolute;
+	height: 10%;
+	width: 100%;
+	margin: 15% 0 0 0;}
+	
+ .page_main {
+	display: inline-block;
+	position: absolute;
+	height: 100%;
+	width: 73%;
+	left: 26%;
+	right: 1%;
+	margin: 19% 0 0 0;}
+	
+.page_sidebar {
+	display: inline-block;
+	background-color: #774233;
+	position: relative;
+	height: 100%;
+	width: 24%;
+	max-width: 24%;
+	margin: 19% 0 0 0;}
+.sidebar {
+	position: absolute;
+	left: 5%;
+	right: 5%;}
+	
+.page_topbar {
+	background-color: #E27B28;
+	position: absolute;
+	height: 20%;
+	width: 100%;
+	top: 0;}
+
+.page_topbar table {
+	border-collapse: collapse;}	
+	
+.page_topbar table td{
+	border: 1px solid black;
+	text-align: center;}
