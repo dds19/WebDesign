@@ -7,18 +7,28 @@
 	<script src="contactScript.js"></script>
 </head>
 <body>
-<div class="header"> 
-	<h1>Contact Us </h1>
-
-    <div class="headerMenu">
-    	<a href="groupindex.html">Home </a> &nbsp;
-    	<a href="contact.html">Contact Us </a>&nbsp;
-    	<a href="stuff.html">Content </a> &nbsp;
-    	<a href="california.html">Content </a> &nbsp;
-    	<a href="images.html">Images </a> 
-    </div>
+<div class="headergradient">
+<table id="header" >
+	<tr >
+		<td>
+			<img src="images/logo.gif" id="logo" alt="Those Guys Logo" width="150" height="150"> 			
+		</td>
+		<td>
+			<h1 class="thetitle" >T.G. Hunting Expeditions</h1> 
+		</td>
+	</tr>
+</table>
 </div>
-<hr>
+<div class="menubar" >
+<table id="menu">
+	<tr class="menus">
+		<td class="menuitem"><a href="groupindex.html">Home </a> </td>
+		<td class="menuitem"><a href="Contact.html">Contact Us</a> </td>
+		<td class="menuitem"><a href="order.html">Order Now </a> </td>	
+		<td class="menuitem"><a href="reviews.html">Reviews </a> </td>
+	</tr>
+</table>	
+</div>
 
 <script async defer
 src="https://maps.googleapis.com/maps/api/js?key=
@@ -30,7 +40,7 @@ AIzaSyC_DOtiYfsXrxKk7BanKUrqNlsvXEigNNM
 <h3 id="heading">Building 4, Room 349</h3>
 <div id="map"></div>
 <div id="heading2">
-    <h2>Fill out the form below if you are interested in obtaining<br> additional information about any of our expeditions.
+    <h2>Fill out the form below if you are interested in obtaining additional information about any of our expeditions.
     </h2>
 </div>
 
@@ -43,7 +53,7 @@ AIzaSyC_DOtiYfsXrxKk7BanKUrqNlsvXEigNNM
 			<td width="42.5%">
 				Contact Info:
 				<div class="table">
-            <form class="tr" method="post" action="">
+            <form class="tr" method="post" action="Post">
                 <span class="td"><input type="text"/></span>
                 <span class="td"><input type="text"/></span>
             </form>
@@ -52,7 +62,7 @@ AIzaSyC_DOtiYfsXrxKk7BanKUrqNlsvXEigNNM
                 <span class="td">E-mail Address</span>
             </div>
             <div class="tr">
-                   <button type="submit" form="tr" value="Submit">Submit</button> 
+                   <button id="reset">Submit</button> 
             </div>
     
                 </div>
